@@ -84,9 +84,7 @@ a:hover {
     text-decoration: none;
     color: #ddaf4c
 }
-a:link {
-    text-decoration: none;
-}
+
 a:focus {
     outline: none;
 }
@@ -278,6 +276,7 @@ h2:after {
 
 
 /* ** Preloader ** */
+
 .arcprime-pageloading {
     color: #ffffff;
     position: fixed;
@@ -383,6 +382,7 @@ h2:after {
         transform: translateX(-270px);
         padding: 60px 30px 0 30px;
     }
+
 }
 /* logo */
 #bauen-aside .bauen-logo {
@@ -620,6 +620,143 @@ h2:after {
     color: #ddaf4c;
 }
 
+/* ======= Navigation styles ======= */
+
+#bauen-main-menu {
+    margin-bottom: 90px;
+}
+
+.bauen-nav-toggle {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.bauen-nav-toggle.active i::before,
+.bauen-nav-toggle.active i::after {
+    background: #fff;
+}
+
+.bauen-nav-toggle.dark.active i::before,
+.bauen-nav-toggle.dark.active i::after {
+    background: #171717;
+}
+
+.bauen-nav-toggle:hover,
+.bauen-nav-toggle:focus,
+.bauen-nav-toggle:active {
+    outline: none;
+    border-bottom: none !important;
+}
+
+.bauen-nav-toggle i {
+    position: relative;
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    width: 20px;
+    height: 1px;
+    color: #fff;
+    font: bold 14px/.4 Helvetica;
+    text-transform: uppercase;
+    text-indent: -55px;
+    background: #fff;
+    -webkit-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    top: -5px;
+}
+
+.bauen-nav-toggle i::before,
+.bauen-nav-toggle i::after {
+    content: '';
+    width: 20px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.bauen-nav-toggle.dark i {
+    position: relative;
+    color: #171717;
+    background: #171717;
+    -webkit-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+
+.bauen-nav-toggle.dark i::before,
+.bauen-nav-toggle.dark i::after {
+    background: #171717;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.bauen-nav-toggle i::before {
+    top: -7px;
+}
+
+.bauen-nav-toggle i::after {
+    bottom: -7px;
+}
+
+.bauen-nav-toggle:hover i::before {
+    top: -10px;
+}
+
+.bauen-nav-toggle:hover i::after {
+    bottom: -10px;
+}
+
+.bauen-nav-toggle.active i {
+    background: transparent;
+}
+
+.bauen-nav-toggle.active i::before {
+    top: 0;
+    -webkit-transform: rotateZ(45deg);
+    -moz-transform: rotateZ(45deg);
+    -ms-transform: rotateZ(45deg);
+    -o-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+}
+
+.bauen-nav-toggle.active i::after {
+    bottom: 0;
+    -webkit-transform: rotateZ(-45deg);
+    -moz-transform: rotateZ(-45deg);
+    -ms-transform: rotateZ(-45deg);
+    -o-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg);
+}
+
+.bauen-nav-toggle {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 9999;
+    cursor: pointer;
+    opacity: 1;
+    visibility: hidden;
+    padding: 11px 15px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    background: #b19777;
+    margin: 15px 30px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    #bauen-main-menu {
+        margin-bottom: 60px;
+    }
+}
+
 
 /* important offcanvas for menu */
 body.offcanvas {
@@ -647,11 +784,8 @@ span, a, a:hover {
     color: inherit;
 }
 
-@media screen and (max-width: 768px){}
-    .bauen-nav-toggle {
-        opacity: 1;
-        visibility: visible;
-    }
+
+
 
 .bauen-nav-toggle {
     position: fixed;
@@ -670,6 +804,13 @@ span, a, a:hover {
     border-radius: 50%;
 }
 
+@media screen and (max-width: 768px) {
+    .bauen-nav-toggle {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
 body.offcanvas #bauen-main,
 body.offcanvas .bauen-nav-toggle {
     top: 0;
@@ -678,6 +819,10 @@ body.offcanvas .bauen-nav-toggle {
     -ms-transform: translateX(270px);
     -o-transform: translateX(270px);
     transform: translateX(270px);
+}
+
+#bauen-main-menu {
+    margin-bottom: 90px;
 }
 
 .arcprime-header-navbar {
@@ -1198,11 +1343,35 @@ font-size: 18px;
 
 
 /* ** Projects style ** */
+#bauen-main {
+    width: 92%;
+    float: right;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 1200px) {
+    #bauen-main {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #bauen-main {
+        width: 100%;
+    }
+    .container {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
 .arcprime-project-section {
     padding-top: 120px;
 }
 
-.arcprime-project-page-section { 
+.arcprime-project-page-section {
    padding-bottom: 80px;
 }
 .arcprime-project-items .col-md-6:nth-child(2) {
@@ -1810,13 +1979,6 @@ font-size: 18px;
     height: 600px;
 }
 
-#bauen-main {
-    width: 92%;
-    float: right;
-    -webkit-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s;
-}
 
 /* ** toTop ** */
 .totop {
@@ -2092,5 +2254,9 @@ font-size: 18px;
     }
     .arcprime-project-wrap {
         padding: 0;
-    } 
+    }
 }
+
+
+
+
