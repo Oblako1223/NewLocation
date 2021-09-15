@@ -353,10 +353,12 @@ h2:after {
 }
 #bauen-aside {
     padding: 40px;
+    width: 20.9%;
     position: fixed;
     bottom: 0;
     top: 0;
     left: 0;
+    overflow-x: hidden;
     z-index: 1001;
     background: #272727;
     -webkit-transition: 0.5s;
@@ -364,15 +366,12 @@ h2:after {
     transition: 0.5s;
     border: none;
     border-right: 1px solid #323232;
+    scrollbar-width: none;
 }
 
 
-@media screen and (max-width: 1200px) {
-    #bauen-aside {
-        width: 30%;
-    }
-}
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 748px) {
     #bauen-aside {
         width: 270px;
         -moz-transform: translateX(-270px);
@@ -1343,24 +1342,30 @@ font-size: 18px;
 
 
 /* ** Projects style ** */
-#bauen-main {
-    width: 92%;
-    float: right;
-    -webkit-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s;
+.content-wrapper
+{
+    position: relative;
 }
 
-@media screen and (max-width: 1200px) {
+    #bauen-main {
+        width: 79.2%;
+        float: right;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+    }
+
+@media screen and (max-width: 1210px) {
     #bauen-main {
         width: 70%;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 748px) {
     #bauen-main {
         width: 100%;
     }
+
     .container {
         padding-right: 30px;
         padding-left: 30px;
