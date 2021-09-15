@@ -1,16 +1,14 @@
-<!-- Logo -->
 <div class="bauen-logo">
     <a href="index.html"> <img src="images/logo.png" class="" alt="" style="width: 200px">
     </a>
 </div>
-<!-- Menu -->
 <nav class="bauen-main-menu">
     <ul>
         <li class="active"><a href='index.html'>Strona Główna</a></li>
         <li><a href='about.html'>O nas</a></li>
         <li class="bauen-sub"><a href="#0">Wybierz nieruchomość dla siebie</a>
             <ul>
-                <li class="bauen-sub"><a href="">Mieszkania na sprzedaż</a>
+                <li class="bauen-sub"><a href="#0">Mieszkania na sprzedaż</a>
                     <ul>
                         <li><a href="blog.html">kawalerki</a></li>
                         <li><a href="blog.html">dwupokojowe</a></li>
@@ -29,7 +27,6 @@
         <li><a href='contact.html'>Kontakt</a></li>
     </ul>
 </nav>
-<!-- Sidebar Footer -->
 <div class="bauen-footer">
     <ul>
         <li><a href="#"><i class="ti-facebook"></i></a></li>
@@ -39,4 +36,28 @@
     </ul>
 </div>
 
-<script src="/js/custom.js"></script>
+<script>
+    $(function() {
+        "use strict";
+        // Sub Menu
+    $('.bauen-main-menu li.bauen-sub>a').on('click', function () {
+        $(this).removeAttr('href');
+        var element = $(this).parent('li');
+        if (element.hasClass('open')) {
+            element.removeClass('open');
+            element.find('li').removeClass('open');
+            element.find('ul').slideUp();
+        }
+        else {
+            element.addClass('open');
+            element.children('ul').slideDown();
+            element.siblings('li').children('ul').slideUp();
+            element.siblings('li').removeClass('open');
+            element.siblings('li').find('li').removeClass('open');
+            element.siblings('li').find('ul').slideUp();
+        }
+    });
+    $('.bauen-main-menu>ul>li.bauen-sub>a').append('<span class="holder"></span>');
+
+        });
+</script>
