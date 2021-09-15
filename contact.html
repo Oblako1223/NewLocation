@@ -26,46 +26,7 @@
 <!--     Left Bar -->
 <a href="#" class="js-bauen-nav-toggle bauen-nav-toggle"><i></i></a>
 <aside id="bauen-aside">
-    <!-- Logo -->
-    <div class="bauen-logo">
-        <a href="index.html"> <img src="images/logo.png" class="" alt="" style="width: 250px">
-        </a>
-    </div>
-    <!-- Menu -->
-    <nav class="bauen-main-menu">
 
-        <ul>
-            <li class="active"><a href='index.html'>Strona Główna</a></li>
-            <li><a href='about.html'>O nas</a></li>
-            <li class="bauen-sub"><a href="#0">Nasze nieruchomości</a>
-                <ul>
-                    <li class="bauen-sub"><a href="pricing.html">Mieszkania na sprzedaż</a>
-                        <ul>
-                            <li class="bauen-sub"><a href="pricing.html">kawalerki</a></li>
-                            <li><a href="team.html">dwupokojowe</a></li>
-                            <li><a href="testimonials.html">trzypokojowe</a></li>
-                            <li><a href="testimonials.html">większe</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="team.html">Mieszkania developerskie</a></li>
-                    <li><a href="testimonials.html">Domy na sprzedaż</a></li>
-                    <li><a href="faqs.html">Działki i grunty</a></li>
-                    <li><a href="gallery.html">Nieruchomości komercyjne</a></li>
-                    <li><a href="video-gallery.html">Nieruchomości na wynajem</a></li>
-                </ul>
-            </li>
-            <li><a href='contact.html'>Kontakt</a></li>
-        </ul>
-    </nav>
-    <!-- Sidebar Footer -->
-    <div class="bauen-footer">
-        <ul>
-            <li><a href="#"><i class="ti-facebook"></i></a></li>
-            <li><a href="#"><i class="ti-twitter"></i></a></li>
-            <li><a href="#"><i class="ti-instagram"></i></a></li>
-            <li><a href="#"><i class="ti-pinterest"></i></a></li>
-        </ul>
-    </div>
 </aside>
 
 <div id="bauen-main">
@@ -126,46 +87,19 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12">
-                    <div id="contactMap"></div>
-                </div>
+                <div class="col-md-12" >
+                    <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9594.740595745643!2d18.58945875783731!3d53.04399569496746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4703346599b53db3%3A0xc683df7bdfdd4e54!2sChabrowa%2022%2C%2087-100%20Toru%C5%84!5e0!3m2!1spl!2spl!4v1631725899206!5m2!1spl!2spl" width="1100" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>                </div>
             </div>
         </div>
     </div>
     <!-- Footer -->
-    <footer class="footer-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="brand"><img src="images/logo.png" class="logo" alt="">
-                        <p><small>Copyright &copy;2021</small></p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <p><b>Kontakt</b>biuro@newlocation.pl
-                        <br/>+48 796 415 814</p>
-                </div>
-                <div class="col-md-3">
-                    <p><b>Lokalizacja</b>ul. Chabrowa 22
-                        <br>87-100 Toruń</p>
-                </div>
-                <div class="col-md-3">
-                    <p class="mb-0"><b>SOCIAL MEDIA</b></p>
-                    <ul class="footer-social-link">
-                        <li><a href="index.html#"><i class="ti-facebook"></i></a></li>
-                        <li><a href="index.html#"><i class="ti-instagram"></i></a></li>
-                        <li><a href="index.html#"><i class="ti-pinterest"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+    <footer id="footer" class="footer-section">
     </footer>
     <!-- toTop -->
     <a href="#" class="totop">TOP</a>
 
 </div>
 <!-- Js -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCe2q1gFSd75jKUnTDPq0nZWaMlEu6vL30"></script>
 <script src="js/plugins/googlemap.js"></script>
 <script src="js/plugins/jquery-3.3.1.min.js"></script>
 <script src="js/plugins/bootstrap.min.js"></script>
@@ -177,5 +111,13 @@
 <script src="modules/magnific-popup/jquery.magnific-popup.js"></script>
 <script src="modules/masonry/masonry.pkgd.min.js"></script>
 <script src="js/script.js"></script>
+<script src="js/custom.js"></script>
+
+<script>
+    $(function(){
+        $("#footer").load("layout/footer.html");
+        $("#bauen-aside").load("layout/left-bar.html");
+    });
+</script>
 </body>
 </html>

@@ -875,7 +875,7 @@ body.offcanvas .bauen-nav-toggle {
     height: 19px;
     background-image: none;
     position: relative;
-    border-bottom: 2px solid #c5a47e;
+    border-bottom: 2px solid #ddaf4c;
     transition: all 300ms linear;
 }
 .navbar-light .navbar-toggler-icon:after,
@@ -883,7 +883,7 @@ body.offcanvas .bauen-nav-toggle {
     width: 24px;
     position: absolute;
     height: 2px;
-    background-color: #c5a47e;
+    background-color: #ddaf4c;
     top: 1px;
     left: 0;
     content: '';
@@ -906,10 +906,10 @@ body.offcanvas .bauen-nav-toggle {
     transition: all 200ms linear;
 }
 .nav-item:hover .nav-link {
-    color: #c5a47e !important;
+    color: #ddaf4c !important;
 }
 .nav-item.active .nav-link {
-    color: #c5a47e;
+    color: #ddaf4c;
     font-weight: 300;
 }
 .navbar-light .navbar-nav .nav-link {
@@ -932,7 +932,7 @@ body.offcanvas .bauen-nav-toggle {
     width: 100%;
     height: 1px;
     content: '';
-    background-color: #c5a47e;
+    background-color: #ddaf4c;
     opacity: 0;
     transition: all 200ms linear;
 }
@@ -948,7 +948,7 @@ body.offcanvas .bauen-nav-toggle {
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show > .nav-link {
-    color: #c5a47e;
+    color: #ddaf4c;
 }
 /* Dropdown style */
 .bg-light {
@@ -979,7 +979,7 @@ body.offcanvas .bauen-nav-toggle {
     color: #999;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #c5a47e;
+    color: #ddaf4c;
     background-color: #292929;
     border: none;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
@@ -1001,7 +1001,7 @@ body.offcanvas .bauen-nav-toggle {
 }
 .dropdown-item:hover,
 .dropdown-item:focus {
-    color: #c5a47e;
+    color: #ddaf4c;
     background-color: rgba(255, 255, 255, 0.1);
 }
 .ti-angle-down {
@@ -1090,13 +1090,13 @@ body.offcanvas .bauen-nav-toggle {
     padding-bottom: 15px;
     font-weight: 400;
     color: transparent;
-    -webkit-text-stroke: 1px #c5a47e;
+    -webkit-text-stroke: 1px #ddaf4c;
 }
 .arcprime-slider-title {
     font-size: 32px;
     line-height: 1.3em;
     font-weight: 300;
-    color: #c5a47e;
+    color: #ddaf4c;
     padding: 0;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
@@ -1319,7 +1319,7 @@ ul.team-info-social li {
 }
 .arcprime-services .item .icon {
     font-size: 50px;
-    color: #c5a47e;
+    color: #ddaf4c;
     line-height: 1.5em;
 }
 .arcprime-services .item h5 {
@@ -1327,7 +1327,7 @@ font-size: 18px;
     font-weight: 500;
     margin: 15px 0;
     font-family: 'Poppins', sans-serif;
-    color: #c5a47e;
+    color: #ddaf4c;
 }
 
 .arcprime-services .item ul {
@@ -1342,7 +1342,7 @@ font-size: 18px;
     display: inline-block;
     margin-left: -1.5em;
     width: 1.5em;
-    color: #c5a47e;
+    color: #ddaf4c;
 }
 
 
@@ -1454,7 +1454,7 @@ font-size: 18px;
     background-color: rgba(41, 41, 41, 0.9);
 }
 .arcprime-project-link {
-    color: #c5a47e;
+    color: #ddaf4c;
     font-size: 16px;
     font-weight: 300;
     position: relative;
@@ -1469,7 +1469,7 @@ font-size: 18px;
     display: inline-block;
     width: 80px;
     height: 1px;
-    background: #c5a47e;
+    background: #ddaf4c;
     position: absolute;
     left: 0;
     bottom: 15px;
@@ -1477,7 +1477,7 @@ font-size: 18px;
 }
 .arcprime-project-link:before:hover {
     padding-left: 5px;
-    color: #c5a47e;
+    color: #ddaf4c;
     transition: all 0.3s ease-in-out;
 }
 .arcprime-project-link i {
@@ -1492,11 +1492,11 @@ font-size: 18px;
 }
 .arcprime-project-link:hover i {
     padding-left: 5px;
-    color: #c5a47e;
+    color: #ddaf4c;
     transition: all 0.3s ease-in-out;
 }
 .arcprime-project-link:hover {
-    color: #c5a47e;
+    color: #ddaf4c;
 }
 
 
@@ -1714,10 +1714,10 @@ font-size: 18px;
     font-family: 'Poppins', sans-serif;
 }
 .blog-page .post-cont h5 a {
-    color: #c5a47e;
+    color: #ddaf4c;
 }
 .blog-page .post-cont h5 a:hover {
-    color: #c5a47e;
+    color: #ddaf4c;
 }
 .blog-page .post-cont .info {
     margin-top: 0px;
@@ -1751,10 +1751,10 @@ font-size: 18px;
     color: #999;
 }
 .blog-sidebar .widget ul li a.active {
-    color: #c5a47e;
+    color: #ddaf4c;
 }
 .blog-sidebar .widget ul li a:hover {
-    color: #c5a47e;
+    color: #ddaf4c;
 }
 .blog-sidebar .widget ul li:last-child {
     margin-bottom: 0;
@@ -1813,7 +1813,7 @@ font-size: 18px;
 .blog-sidebar .tags li {
     margin: 3px !important;
     padding: 6px 16px;
-    background-color: #c5a47e;
+    background-color: #ddaf4c;
     color: #fff !important;
     float: left;
 }
@@ -1835,7 +1835,7 @@ font-size: 18px;
 .blog-pagination-wrap li {
     display: inline-block;
     margin: 0 5px;
-    background: #c5a47e;
+    background: #ddaf4c;
 }
 .blog-pagination-wrap li a {
     background: #333;
@@ -1850,11 +1850,11 @@ font-size: 18px;
 .blog-pagination-wrap li a:hover {
     opacity: 1;
     text-decoration: none;
-    background: #c5a47e;
+    background: #ddaf4c;
 }
 .blog-pagination-wrap li a.active {
-    background-color: #c5a47e;
-    border: 1px solid #c5a47e;
+    background-color: #ddaf4c;
+    border: 1px solid #ddaf4c;
     color: #fff;
 }
 @media screen and (max-width: 768px) {
@@ -1896,7 +1896,7 @@ font-size: 18px;
 .arcprime-user-content h3 {
     font-size: 16px;
     line-height: 1.75em;
-    color: #c5a47e;
+    color: #ddaf4c;
     font-family: 'Poppins', sans-serif;
     margin: 0 0 15px;
 }
@@ -1911,7 +1911,7 @@ font-size: 18px;
 .arcprime-repay {
     font-size: 12px;
     line-height: 1.75em;
-    color: #c5a47e !important;
+    color: #ddaf4c !important;
     margin: 0;
     font-weight: 300;
 }
@@ -1919,7 +1919,7 @@ font-size: 18px;
 /* Buttons */
 .arcprime-btn {
     padding: 8px 24px;
-    border: 1px solid #c5a47e;
+    border: 1px solid #ddaf4c;
     color: #999;
     font-weight: 300;
     position: relative;
@@ -1935,14 +1935,14 @@ font-size: 18px;
     height: 100%;
     top: 0;
     left: 0;
-    background-color: #c5a47e;
+    background-color: #ddaf4c;
     -webkit-transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
     -o-transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
     transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
 }
 .arcprime-btn:hover,
 .arcprime-btn:focus {
-    border-color: 1px solid #c5a47e;
+    border-color: 1px solid #ddaf4c;
     color: #fff !important;
 }
 .arcprime-btn:hover:after,
@@ -1951,14 +1951,14 @@ font-size: 18px;
 }
 .arcprime-btn2 {
     padding: 10px 25px;
-    border: 2px solid #c5a47e;
+    border: 2px solid #ddaf4c;
     color: #fff;
     font-weight: 300;
     position: relative;
     z-index: 1;
     outline: none;
     width: fit-content;
-    background: #c5a47e;
+    background: #ddaf4c;
 }
 .arcprime-btn2:after {
     content: '';
@@ -1968,14 +1968,14 @@ font-size: 18px;
     height: 100%;
     top: 0;
     left: 0;
-    background-color: #c5a47e;
+    background-color: #ddaf4c;
     -webkit-transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
     -o-transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
     transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
 }
 .arcprime-btn2:hover,
 .arcprime-btn2:focus {
-    border-color: #c5a47e;
+    border-color: #ddaf4c;
     color: #fff !important;
 }
 .arcprime-btn2:hover:after,

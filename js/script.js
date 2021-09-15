@@ -49,8 +49,8 @@
                 infinite: true
                 , dots: false
                 , arrows: true
-                , slidesToShow: 3
-                , slidesToScroll: 3
+                , slidesToShow: 1
+                , slidesToScroll: 1
                 , responsive: [
                     {
                         breakpoint: 768
