@@ -358,7 +358,7 @@ h2:after {
     bottom: 0;
     top: 0;
     left: 0;
-    overflow-x: hidden;
+    overflow-x: -moz-scrollbars-none;
     z-index: 1001;
     background: #272727;
     -webkit-transition: 0.5s;
