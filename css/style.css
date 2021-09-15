@@ -369,6 +369,11 @@ h2:after {
     scrollbar-width: none;
 }
 
+@media screen and (max-width: 1200px) {
+    #bauen-aside {
+        width: 30%;
+    }
+}
 
 
 @media screen and (max-width: 748px) {
