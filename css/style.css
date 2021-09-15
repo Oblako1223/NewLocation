@@ -1399,7 +1399,7 @@ font-size: 18px;
     }
 
     .arcprime-slider-title {
-        font-size: 11px;
+        font-size: 14px;
         line-height: 1.3em;
         font-weight: 300;
         color: #ddaf4c;
@@ -1409,7 +1409,19 @@ font-size: 18px;
     }
 
 
+    .arcprime-slider-content {
+        display: none;
+    }
 
+}
+
+
+.arcprime-slider-content {
+    padding-top: 100px;
+}
+
+.arcprime-slider-content p{
+    font-size: 18px;
 }
 
 .arcprime-project-section {
