@@ -1082,7 +1082,7 @@ body.offcanvas .bauen-nav-toggle {
 }
 .arcprime-slider-number {
     font-family: 'Oswald', sans-serif;
-    font-size: 60px;
+    font-size: 30px;
     line-height: 1em;
     border-bottom: 1px solid rgba(255,255,255,0.1);
     margin-bottom: 15px;
@@ -1092,7 +1092,7 @@ body.offcanvas .bauen-nav-toggle {
     -webkit-text-stroke: 1px #ddaf4c;
 }
 .arcprime-slider-title {
-    font-size: 32px;
+    font-size: 20px;
     line-height: 1.3em;
     font-weight: 300;
     color: #ddaf4c;
