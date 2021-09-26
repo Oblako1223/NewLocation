@@ -120,7 +120,7 @@ img {
 }
 .section-padding span {
     font-size: 11px;
-    color: #ddaf4c;
+    color: #ddaf4c!important;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 5px;
@@ -1026,7 +1026,7 @@ body.offcanvas .bauen-nav-toggle {
 
 /* ** Homepage slider ** */
 .arcprime-homepage-slider {
-    padding-top: 120px;
+    /*padding-top: 120px;*/
     outline: none;
 }
 .arcprime-slider-item {
