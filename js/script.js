@@ -49,7 +49,7 @@
                 infinite: true
                 , dots: false
                 , arrows: true
-                , slidesToShow: 1
+                , slidesToShow: 3
                 , slidesToScroll: 1
                 , responsive: [
                     {
