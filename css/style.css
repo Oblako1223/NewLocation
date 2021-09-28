@@ -1085,7 +1085,7 @@ body.offcanvas .bauen-nav-toggle {
     font-size: 30px;
     line-height: 1em;
     border-bottom: 1px solid rgba(255,255,255,0.1);
-    margin-bottom: 15px;
+    /*margin-bottom: 15px;*/
     padding-bottom: 15px;
     font-weight: 400;
     color: transparent;
@@ -1408,20 +1408,14 @@ font-size: 18px;
         text-transform: uppercase;
     }
 
-
     .arcprime-slider-content {
         display: none;
     }
-
-}
-
-
-.arcprime-slider-content {
-    padding-top: 100px;
 }
 
 .arcprime-slider-content p{
-    font-size: 18px;
+    font-size: 11px;
+    margin-bottom: 0px!important;
 }
 
 .arcprime-project-section {
