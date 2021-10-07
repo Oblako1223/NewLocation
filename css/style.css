@@ -2072,6 +2072,9 @@ font-size: 18px;
     height: 600px;
 }
 
+.centerxy {
+ /*padding-top: 10%;*/
+}
 
 /* ** toTop ** */
 .totop {
