@@ -1993,7 +1993,6 @@ font-size: 18px;
 }
 
 
-
 .arcprime-btn {
     border: 1px solid #ddaf4c;
     color: #999;
@@ -2004,6 +2003,7 @@ font-size: 18px;
     margin: 15px 0;
     width: 100%;
 }
+
 
 .arcprime-btn:after {
     content: '';
@@ -2027,17 +2027,19 @@ font-size: 18px;
 .arcprime-btn:focus:after {
     width: 100%;
 }
+
 .arcprime-btn2 {
-    padding: 10px 25px;
-    border: 2px solid #ddaf4c;
-    color: #fff;
+    border: 1px solid #ddaf4c;
+    color: #999;
     font-weight: 300;
     position: relative;
     z-index: 1;
-    outline: none;
-    width: fit-content;
-    background: #ddaf4c;
+    background: #333;
+    margin: 15px 0;
+    width: 100%;
 }
+
+
 .arcprime-btn2:after {
     content: '';
     position: absolute;
@@ -2053,13 +2055,16 @@ font-size: 18px;
 }
 .arcprime-btn2:hover,
 .arcprime-btn2:focus {
-    border-color: #ddaf4c;
-    color: #fff !important;
+    border-color: 1px solid #ddaf4c;
+    background: #333;
+    color: #999;
 }
+
 .arcprime-btn2:hover:after,
 .arcprime-btn2:focus:after {
     width: 100%;
 }
+
 
 /* ** Contact style ** */
 #contactMap {
